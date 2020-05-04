@@ -10,3 +10,5 @@
  Your low hz audio should play in a bitcrushed fashion.  
  
 UPDATE: I have been informed that Windows Movie Maker XP doesn't render the scrolling text on Windows 10 (and any project that uses it can’t be exported). I now have Windows 10 and found that if you right click on Windows Movie Maker 2.6>Properties>Compatibility>Run this program in compatibility mode for>Windows XP (Service Pack 2), it should work fine again. - Tested on Windows 10 Enterprise 2016 LTSB X64
+ 
+[**Download Archive**](https://github.com/Kippykip/Kippykip-2009/archive/master.zip)
