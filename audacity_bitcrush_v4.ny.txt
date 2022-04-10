@@ -1,0 +1,10 @@
+;version 4
+;(setq factor 11.025) ;4000hz -> 44100hz
+;(setq factor 5.5125) ;8000hz -> 44100hz
+;(setq factor 4) ;11025hz -> 44100hz
+;(setq factor 2) ;22050hz -> 44100hz
+
+(control-srate-abs *sound-srate* 
+  (let ((sig2 (mult (/ *sound-srate*)
+                    (quantize (pwl factor len factor) 1))))
+    (multichan-expand #'snd-compose *track* sig2)))
