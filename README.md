@@ -10,7 +10,7 @@
  To this:  
  (setq factor 2) ;22050hz -> 44100hz  
  
- Then on the top left side of the audio layer, click the dropdown arrow>Rate>44100 Hz.
+ Hit ok, then on the top left side of the audio layer, click the dropdown arrow>Rate>44100 Hz.
  Special thanks to SteveDaulton for writing this updated script!
  
  There's also the older version 3 audacity script. It works pretty much the same but instead change the "sourcerate" variable (which is set to 4000 in the file)
